@@ -1,0 +1,86 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 50px 5%;
+}
+
+.user-profile__user-panel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #DFE3E8;
+  margin-bottom: auto;
+}
+
+.user-profile__user-panel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #DFE3E8;
+}
+
+h1 {
+  margin: 0;
+}
+
+.user-profile__admin-badge {
+  background: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  margin-right: auto;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.user-profile__follower-count {
+  margin-right: auto;
+}
+
+.user-profile__twoots-wrapper {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.twoot-item {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #DFE3E8;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.twoot-item:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.twoot-item__user {
+  font-weight: bold;
+}
+
+.user-profile__create-twoot {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
